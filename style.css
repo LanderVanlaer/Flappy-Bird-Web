@@ -14,4 +14,17 @@ main {
     margin: calc((100vh - 720px) / 2) auto;
     background-image: url("images/Forest04.jpg");
     background-size: cover;
+    position: relative;
+}
+
+.bird {
+    position: absolute;
+    width: 60px;
+    height: auto;
+}
+
+.block {
+    position: absolute;
+    width: 40px;
+    background-color: #2C2E78;
 }
